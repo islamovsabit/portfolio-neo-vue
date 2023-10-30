@@ -1,0 +1,209 @@
+.header {
+    padding: 25px 0;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &-title {
+        width: 50px;
+        height: 40px;
+        border-radius: 10px;
+        border: 0.553px solid rgba(255, 255, 255, 0.16);
+        background: #E6E7EE;
+        box-shadow: -6px -6px 12px 0px #FFF, 6px 6px 12px 0px #B8B9BE;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #24272C;
+        font-family: Nunito;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        margin-right: 66px;
+        transition: 0.4s;
+
+        &:hover {
+            box-shadow: inset -3px -3px 6px 0px #FFF, inset 3px 3px 6px 0px #B8B9BE;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &-link {
+        color: #24272C;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+
+
+
+.header-content-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 15px;
+        margin-right: 40px;
+    }
+
+    &-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #E6E7EE;
+        box-shadow: -3px -3px 6px 0px #FFF, 3px 3px 6px 0px #B8B9BE;
+
+
+        &:hover {
+            box-shadow: inset -3px -3px 6px 0px #FFF, inset 3px 3px 6px 0px #B8B9BE;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        &-icon {
+            font-size: 20px;
+            color: #24272C;
+        }
+    }
+
+    &-btn-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    &-btn-theme {
+        width: 84px;
+        height: 40px;
+
+
+        border: none;
+        padding: 6px;
+
+        border-radius: 10px;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), #E6E7EE;
+        background-blend-mode: soft-light, normal;
+        box-shadow: -3px -3px 6px 0px #FFF, 3px 3px 6px 0px #B8B9BE;
+
+        transition: 0.4s;
+
+        &:hover {
+            box-shadow: inset -3px -3px 6px 0px #FFF, inset 3px 3px 6px 0px #B8B9BE;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        &-day-moon {
+            width: 28px;
+            height: 28px;
+            background: #24272C;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-left: 0;
+
+            position: relative;
+        }
+
+        &-icon-day {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            font-size: 16px;
+            color: #E6E7EE;
+            opacity: 1;
+
+            &.active {
+                opacity: 0;
+            }
+        }
+
+        &-icon-moon {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            font-size: 16px;
+            color: #E6E7EE;
+            opacity: 0;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &-btn-library {
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background: #E6E7EE;
+        box-shadow: -6px -6px 12px 0px #FFF, 6px 6px 12px 0px #B8B9BE;
+
+        color: #24272C;
+
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        &:hover{
+            box-shadow: inset -6px -6px 12px 0px #FFF, inset 6px 6px 12px 0px #B8B9BE;
+        }
+        
+        &:active{
+            transform: scale(0.95);
+        }
+    }
+}
