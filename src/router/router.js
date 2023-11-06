@@ -1,41 +1,41 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../pages/Home.vue'
-import About from '../pages/About.vue'
-import Education from '../pages/Educaion.vue'
-import Portfolio from '../pages/Portfolio.vue'
-import Service from '../pages/Service.vue'
-import Contact from '../pages/Contact.vue'
+import HomeView from '../pages/HomeView.vue'
+import AboutView from '../pages/AboutView.vue'
+import EducationView from '../pages/EducaionView.vue'
+import PortfolioView from '../pages/PortfolioView.vue'
+import ServiceView from '../pages/ServiceView.vue'
+import ContactView from '../pages/ContactView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'HomeView',
+    component: HomeView
   },
   {
     path: '/about',
-    name: 'About',
-    component: About
+    name: 'AboutView',
+    component: AboutView
   },
   {
     path: '/education',
-    name: 'Education',
-    component: Education
+    name: 'EducationView',
+    component: EducationView
   },
   {
     path: '/portfolio',
-    name: 'Portfolio',
-    component: Portfolio
+    name: 'PortfolioView',
+    component: PortfolioView
   },
   {
     path: '/service',
-    name: 'Service',
-    component: Service
+    name: 'ServiceView',
+    component: ServiceView
   },
   {
     path: '/contact',
-    name: 'Contact',
-    component: Contact
+    name: 'ContactView',
+    component: ContactView
   }
 ]
 

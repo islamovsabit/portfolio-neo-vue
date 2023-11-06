@@ -10,3 +10,10 @@
 @import './scss/service.scss';
 @import './scss/portfolio.scss';
 @import './scss/swiper.scss';
+
+
+textarea {
+    resize: vertical;
+    min-height: 160px;
+    max-height: 350px;
+}

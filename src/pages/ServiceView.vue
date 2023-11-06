@@ -1,14 +1,14 @@
 <script>
-import { Icon } from '@iconify/vue';
+// import { Icon } from '@iconify/vue';
 export default {
     components: {
-        Icon,
+        // Icon,
     },
 }
 </script>
 <template>
     <main>
         <!-- <Icon/> -->
-        contact
+        Service
     </main>
 </template>
